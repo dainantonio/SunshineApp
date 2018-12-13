@@ -1,7 +1,7 @@
 package com.example.dainr.sunshineapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
          * Using findViewById, we get a reference to our TextView from xml. This allows us to
          * do things like set the text of the TextView.
          */
-        mWeatherListTextView= (TextView)findViewById(R.id.tv_weather_data);
+        mWeatherListTextView = findViewById(R.id.tv_weather_data);
 
         /*Use the static ToyBox.getToyNames method and store the names in a String array
         /*
